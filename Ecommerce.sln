@@ -23,12 +23,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryService.Worker", "InventoryService\InventoryService.Worker\InventoryService.Worker.csproj", "{F0AFA5A5-853A-41DF-8E7F-FC3F3FA67B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Worker", "PaymentService\PaymentService.Worker\PaymentService.Worker.csproj", "{04683D9B-284B-4416-86C5-BD8CCD1767C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Worker", "PaymentService\PaymentService.Worker\PaymentService.Worker.csproj", "{04683D9B-284B-4416-86C5-BD8CCD1767C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02CC434E-F423-4B10-B3EE-66FC3BC95EDD}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yaml = docker-compose.yaml
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdPartyPaymentGateway", "ThirdPartyPaymentGateway", "{1E753BA4-C80A-485F-972A-AE55E39721E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyPaymentGateway.API", "ThirdPartyPaymentGateway\ThirdPartyPaymentGateway.API\ThirdPartyPaymentGateway.API.csproj", "{14D50C0D-DC34-49FF-AD2F-FCA9D76BDD2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +68,10 @@ Global
 		{04683D9B-284B-4416-86C5-BD8CCD1767C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04683D9B-284B-4416-86C5-BD8CCD1767C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04683D9B-284B-4416-86C5-BD8CCD1767C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D50C0D-DC34-49FF-AD2F-FCA9D76BDD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D50C0D-DC34-49FF-AD2F-FCA9D76BDD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D50C0D-DC34-49FF-AD2F-FCA9D76BDD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D50C0D-DC34-49FF-AD2F-FCA9D76BDD2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,7 @@ Global
 		{39868D81-81E5-4710-AC94-3278C47F2CFF} = {334E447D-0237-42A8-9519-A67B9997B89A}
 		{F0AFA5A5-853A-41DF-8E7F-FC3F3FA67B6F} = {D56D09AB-960E-49A1-8FF7-167D934CC2F8}
 		{04683D9B-284B-4416-86C5-BD8CCD1767C2} = {BE8F2230-15AB-49A7-B235-4CF691C3127C}
+		{14D50C0D-DC34-49FF-AD2F-FCA9D76BDD2E} = {1E753BA4-C80A-485F-972A-AE55E39721E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1779DFA7-5AF5-4793-AB57-3328D5D6DF86}
