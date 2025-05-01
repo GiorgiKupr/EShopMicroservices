@@ -16,6 +16,7 @@
 		</PackageReference>
 		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.4" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="9.4.0" />
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
 		<PackageReference Include="DotNetCore.CAP" Version="8.3.4" />
 		<PackageReference Include="DotNetCore.CAP.Dashboard" Version="8.3.4" />
